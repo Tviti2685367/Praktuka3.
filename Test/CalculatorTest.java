@@ -23,4 +23,13 @@ public class CalculatorTest {
             System.out.println("Calculation test failed.");
         }
     }
+    
+    // Додамо метод main
+public static void main(String[] args) {
+    // Створимо об'єкт класу CalculatorTest
+    CalculatorTest test = new CalculatorTest();
+    // Викличемо метод для тестування обчислень
+    test.testCalculations();
+}
+
 }
